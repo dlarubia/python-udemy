@@ -14,3 +14,5 @@ while valor != "stop":
     chave += 1
 
 print(dicionario)
+
+# Corrigir o código posteriormente
