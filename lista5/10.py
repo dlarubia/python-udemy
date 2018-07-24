@@ -8,8 +8,8 @@ def retornaMaior(a, b):
     else:
         return b
 
-x = input("Digite o primeiro valor: ")
-y = input("Digite o segundo valor: ")
-z = input("Digite o terceiro valor: ")
+x = int(input("Digite o primeiro valor: "))
+y = int(input("Digite o segundo valor: "))
+z = int(input("Digite o terceiro valor: "))
 
 print("O maior valor é:", retornaMaior(retornaMaior(x,y),z))
